@@ -1,0 +1,11 @@
+{
+    "None": "Ingen",
+    "story": {
+        "title": "Title: ",
+        "url": "Url: ",
+        "timestamp": "Timestamp: ",
+        "score": "Score: ",
+        "Auther": "Auther: ",
+        "AutherKarmaScore": "Karma: "
+    }
+}
