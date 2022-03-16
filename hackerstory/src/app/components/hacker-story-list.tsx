@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { HackerStory } from './hacker-story';
 
 export const HackerStoryList = () => {
-  const stories = useAppSelector(state => state.auth.stories);
+  const stories = useAppSelector(state => state.story.stories);
   const renderItems = useCallback(
     item => <HackerStory key={item.index} {...item} />,
     [],

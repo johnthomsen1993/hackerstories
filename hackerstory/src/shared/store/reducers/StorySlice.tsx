@@ -24,7 +24,7 @@ export const StorySlice = createSlice({
   reducers: {
     setStories: (state, action: PayloadAction<StoryDto[]>) => {
       state.stories = action.payload.sort((a, b) =>
-        a.score && b.score ? b.score - a.score : 0,
+        a.score && b.score ? a.score - b.score : 0,
       );
     },
   },

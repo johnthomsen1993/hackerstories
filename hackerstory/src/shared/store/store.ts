@@ -1,11 +1,11 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 
-import authReducer from './reducers/StorySlice';
+import storyReducer from './reducers/StorySlice';
 
 export function makeStore() {
   return configureStore({
     reducer: {
-      auth: authReducer,
+      story: storyReducer,
     },
     middleware: getDefaultMiddleware =>
       getDefaultMiddleware({ serializableCheck: false }),
